@@ -1,6 +1,6 @@
-#For connecting to your api
+## For connecting to your api
 
-create a .env file in your root and write 
+create a .env file in your root and write\
 const MAPI_KEY = {your api key}
 
 # Getting Started with Create React App
