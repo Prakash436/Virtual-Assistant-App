@@ -1,4 +1,4 @@
-## For connecting to your api
+## For connecting to your openai api
 
 create a .env file in your root and write\
 const MAPI_KEY = {your api key}
