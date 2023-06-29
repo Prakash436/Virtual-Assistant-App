@@ -14,7 +14,7 @@ body {
 
 .side-bar {
   background-color: #202123;
-  width: 17%;
+  width: 20%;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -75,12 +75,14 @@ body {
 
 .main {
   height: 100vh;
-  width: 100%;
+  width: 80%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
 .info {
@@ -130,6 +132,32 @@ body {
   bottom: 1.5vh;
   right: 0;
   cursor: pointer;
+}
+
+.feed {
+  overflow: scroll;
+  overflow-x: hidden;
+  width: 100%;
+  height: 80%;
+  padding: 0;
+}
+
+.feed li{
+  display: flex;
+  background-color: #444654;
+  width: 100%;
+  padding: 2vh;
+  margin: 2vh 0;
+}
+
+.feed p {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 1.8vh;
+  text-align:left;
+}
+
+.feed p.role {
+  min-width: 15vh;
 }
 
 code {
