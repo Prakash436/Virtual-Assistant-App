@@ -1,3 +1,8 @@
+#For connecting to your api
+
+create a .env file in your root and write 
+const MAPI_KEY = {your api key}
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
